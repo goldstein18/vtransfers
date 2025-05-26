@@ -7,15 +7,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-<title>Página con Encabezado e Imagen de Fondo</title>
+<title>Transfers</title>
 
+<script>
+  // Mobile menu functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuBtn.addEventListener('click', function() {
+      this.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!menuBtn.contains(e.target) && !navLinks.contains(e.target)) {
+        menuBtn.classList.remove('active');
+        navLinks.classList.remove('active');
+      }
+    });
+  });
+</script>
 </head>
 <body>
 
 <header>
   <img src="chatpics/logov.png" alt="Logotipo">
   <nav>
-    <ul>
+    <div class="mobile-menu">
+      <button class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">Contact Us</a></li>
       <li><a href="#">Gallery</a></li>
