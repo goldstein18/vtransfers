@@ -86,7 +86,7 @@ header img:hover {
   left: 0;
   width: 0;
   height: 2px;
-  background: #3498db;
+  background: #000000;
   transition: width 0.3s ease;
 }
 
@@ -95,7 +95,7 @@ header img:hover {
 }
 
 .nav-links li a:hover {
-  color: #3498db;
+  color: #ffffff;
 }
 
 /* Hero Section */
@@ -146,20 +146,20 @@ header img:hover {
 .cta-button {
   display: inline-block;
   padding: 15px 30px;
-  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
   color: white;
   text-decoration: none;
   border-radius: 50px;
   font-weight: 600;
   font-size: 1.1rem;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .cta-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
-  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(135deg, #333333 0%, #000000 100%);
 }
 
 .hero-image {
@@ -292,7 +292,7 @@ header img:hover {
 .mission-content h3 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #3498db;
+  color: #000000;
   margin-bottom: 30px;
 }
 
@@ -331,19 +331,19 @@ header img:hover {
   display: inline-block;
   padding: 15px 30px;
   background: transparent;
-  color: #3498db;
+  color: #000000;
   text-decoration: none;
-  border: 2px solid #3498db;
+  border: 2px solid #000000;
   border-radius: 50px;
   font-weight: 600;
   transition: all 0.3s ease;
 }
 
 .learn-more-btn:hover {
-  background: #3498db;
+  background: #000000;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .mission-image img {
@@ -393,7 +393,7 @@ header img:hover {
 .vision-text h3 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #3498db;
+  color: #000000;
   margin-bottom: 30px;
 }
 
@@ -644,14 +644,14 @@ header img:hover {
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
   background: white;
 }
 
 .quote-button {
   width: 100%;
   padding: 18px;
-  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
   color: white;
   border: none;
   border-radius: 10px;
@@ -666,8 +666,8 @@ header img:hover {
 
 .quote-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
-  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(135deg, #333333 0%, #000000 100%);
 }
 
 /* Modal Styles */
@@ -851,7 +851,7 @@ header img:hover {
 
 /* Footer */
 .footer {
-  background: #2c3e50;
+  background: #000000;
   color: white;
   padding: 60px 0 30px;
 }
@@ -891,13 +891,13 @@ header img:hover {
 }
 
 .footer-links a:hover {
-  color: #3498db;
+  color: #000000;
 }
 
 .footer-bottom {
   text-align: center;
   padding-top: 30px;
-  border-top: 1px solid #34495e;
+  border-top: 1px solid #333333;
   color: #bdc3c7;
 }
 
